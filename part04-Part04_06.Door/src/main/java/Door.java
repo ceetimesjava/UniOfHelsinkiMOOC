@@ -8,17 +8,13 @@
  *
  * @author dimej
  */
-public class Whistle {
-    private String sound;
+public class Door {
     
-    public Whistle(String whistleSound){
-        this.sound = whistleSound;
+    public Door (){
         
     }
-    public void sound(){
-        System.out.println(this.sound );
+    
+    public void knock(){
+        System.out.println("Who's there?");
     }
-    
-
-    
 }
